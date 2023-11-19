@@ -28,14 +28,14 @@ const Bill = () => {
           src="/images/1700326398865.png" // Adjust the path as per your folder structure
           alt="Your Image Alt Text"
           className="image-style" // Add your preferred CSS class for styling the image
-          style={{ width: "400px", height: "500px", marginTop: "-600px", marginLeft: "1000px" }}
+          style={{ width: "400px", height: "500px", marginTop: "-500px", marginLeft: "1000px" }}
         />
       ) : (
         <img
           src="/images/1700328003508.png" // Adjust the path as per your folder structure
           alt="Your Image Alt Text"
           className="image-style" // Add your preferred CSS class for styling the image
-          style={{ width: "400px", height: "500px", marginTop: "-600px", marginLeft: "1000px" }}
+          style={{ width: "400px", height: "500px", marginTop: "-500px", marginLeft: "1000px" }}
         />
       )}
 
