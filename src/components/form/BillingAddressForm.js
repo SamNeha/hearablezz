@@ -35,7 +35,7 @@ const BillingAddressForm = ({ onFormSubmit }) => {
       onFormSubmit(); // Call the provided callback to notify the parent component
     }
     try {
-      const response = await fetch('/api/billing', {
+      const response = await fetch('https://hearables-backend.onrender.com/api/billing', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
