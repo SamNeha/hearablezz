@@ -33,7 +33,7 @@ const AccountForm = () => {
 
             try {
                 // Make an API request to your server for signup
-                const response = await fetch('/api/signup', {
+                const response = await fetch('https://hearables-backend.onrender.com/api/signup', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
